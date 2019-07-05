@@ -31,7 +31,7 @@ Pytorch code for the cross-modal retrieval part of our ICMR 2019 paper [Context-
 
 - To train cross-modal retrieval model with MTL context embeddings run:
     
-    `python main.py --mode train --model mlt --dir_dataset $semart`
+    `python main.py --mode train --model mtl --dir_dataset $semart`
     
 - To train cross-modal retrieval model with KGM context embeddings run:
     
@@ -43,7 +43,7 @@ Where `$semart` is the path to SemArt dataset and `$attribute` is the classifier
 
 - To test cross-modal retrieval model with MTL context embeddings run:
     
-    `python main.py --mode test --model mlt --dir_dataset $semart`
+    `python main.py --mode test --model mtl --dir_dataset $semart`
     
 - To test cross-modal retrieval model with KGM context embeddings run:
     
