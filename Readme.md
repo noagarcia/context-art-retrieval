@@ -1,3 +1,5 @@
+2022/01/05: Downloading links for the pre-trained models have been updated. Sorry for the wait.
+
 ## Context Embeddings for Cross-Modal Retrieval
 
 Pytorch code for the cross-modal retrieval part of our ICMR 2019 paper [Context-Aware Embeddings for Automatic Art Analysis](https://arxiv.org/abs/1904.04985). For the classification part, check [this other repository](https://github.com/noagarcia/context-art-classification). 
@@ -5,7 +7,7 @@ Pytorch code for the cross-modal retrieval part of our ICMR 2019 paper [Context-
 
 ### Setup
 
-1. Download dataset from [here](http://noagarciad.com/SemArt/).
+1. Download dataset from [here](https://noagarcia.github.io/SemArt/).
 
 2. Clone the repository: 
     
@@ -21,11 +23,12 @@ Pytorch code for the cross-modal retrieval part of our ICMR 2019 paper [Context-
     - sklearn (`conda install scikit-learn`)
     
 4. Download our pre-trained context-aware models obtained with the [classification](https://github.com/noagarcia/context-art-classification) code and save them into `Models/` folder:
-    - [MTL](http://noagarciad.com/data/ICMR2019/best-mtl-model.pth.tar)
-    - [KGM Type](http://noagarciad.com/data/ICMR2019/best-kgm-type-model.pth.tar)
-    - [KGM School](http://noagarciad.com/data/ICMR2019/best-kgm-school-model.pth.tar)
-    - [KGM Timeframe](http://noagarciad.com/data/ICMR2019/best-kgm-time-model.pth.tar)
-    - [KGM Author](http://noagarciad.com/data/ICMR2019/best-kgm-author-model.pth.tar)
+- [MTL](https://drive.google.com/file/d/1KOQgEksQH7sU5syl5Vv-SRilijzae5sP/view?usp=sharing)
+- [KGM Type](https://drive.google.com/file/d/1zLdvyy6gSw3ENAhLin6c1-DvnvJ9_CU9/view?usp=sharing)
+- [KGM School](https://drive.google.com/file/d/1h5sYNsINQRC4LtdoyMcRi16Ho6evx00n/view?usp=sharing)
+- [KGM Timeframe](https://drive.google.com/file/d/1QTsNQbQmQFUgRiWiYjvuPQrgtzL89Ynj/view?usp=sharing)
+- [KGM Author](https://drive.google.com/file/d/1dFThWHACyX08mBk8lz-4sC8XhF-VMYam/view?usp=sharing)
+
 
 ### Train
 
@@ -52,14 +55,14 @@ Where `$semart` is the path to SemArt dataset and `$attribute` is the classifier
 Where `$semart` is the path to SemArt dataset, `$attribute` is the classifier type (i.e. `type`, `school`, `time`, or `author`), and `$model-file` is the path to the trained model.
 
 You can download our pre-trained cross-modal retrieva models with context embeddings from:
-- [MTL Type](http://noagarciad.com/data/ICMR2019/best-retrieval-mtl-type.pth.tar)
-- [MTL School](http://noagarciad.com/data/ICMR2019/best-retrieval-mtl-school.pth.tar)
-- [MTL Timeframe](http://noagarciad.com/data/ICMR2019/best-retrieval-mtl-time.pth.tar)
-- [MTL Author](http://noagarciad.com/data/ICMR2019/best-retrieval-mtl-author.pth.tar)
-- [KGM Type](http://noagarciad.com/data/ICMR2019/best-retrieval-kgm-type.pth.tar)
-- [KGM School](http://noagarciad.com/data/ICMR2019/best-retrieval-kgm-school.pth.tar)
-- [KGM Timeframe](http://noagarciad.com/data/ICMR2019/best-retrieval-kgm-time.pth.tar)
-- [KGM Author](http://noagarciad.com/data/ICMR2019/best-retrieval-kgm-author.pth.tar)
+- [MTL Type](https://drive.google.com/file/d/1MZr_kIz65d1nVxb8rpyccg8NIX9S3Yrt/view?usp=sharing)
+- [MTL School](https://drive.google.com/file/d/1IepUeQf_Xs7UD1ojhQiloC58DqnOycVE/view?usp=sharing)
+- [MTL Timeframe](https://drive.google.com/file/d/1KWwI_OMOBcv6jrLxtrwSwLCaQo0RvTCr/view?usp=sharing)
+- [MTL Author](https://drive.google.com/file/d/1qnKGrC3G2Qh4ODCws0rVVXKo8LVF2L7G/view?usp=sharing)
+- [KGM Type](https://drive.google.com/file/d/1T2nRDwFugIQUmGce5v0I2q6ApjOWGH7Y/view?usp=sharing)
+- [KGM School](https://drive.google.com/file/d/11LxYQuM_KaVswCS5uDv-9JdlaYBhVDa3/view?usp=sharing)
+- [KGM Timeframe](https://drive.google.com/file/d/1tFojso0QHwV2mo6hVrhD8f3PQU7oc-x3/view?usp=sharing)
+- [KGM Author](https://drive.google.com/file/d/1waBb2gYY6coiXLeQE62oBWBiFof81-hN/view?usp=sharing)
 
 
 ### Results
